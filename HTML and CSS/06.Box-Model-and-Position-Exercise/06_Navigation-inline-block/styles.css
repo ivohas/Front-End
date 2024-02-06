@@ -1,0 +1,26 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+a,p{
+    display: inline-block;
+}
+
+nav p{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: -1px;
+    padding-bottom: 1px;
+    padding-right: 3em;
+    padding-left: 13px;
+}
+a{
+    color: green;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+main{
+    padding: 2%;
+}

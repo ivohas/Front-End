@@ -1,1 +1,14 @@
-/* TODO: style the html */
+body{
+   background-color: lightslategray;
+}
+p{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: #0F4069;
+    border: 2px #e6eaef solid;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}

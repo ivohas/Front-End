@@ -1,0 +1,38 @@
+body{
+    margin: 2em 4em;
+}
+header {
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+ul {
+    margin-right: 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    padding: 1em;
+}
+
+a {
+    color: green;
+}
+
+h2{
+    font-weight: 600;
+}

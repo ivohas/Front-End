@@ -1,0 +1,33 @@
+.section-colums .container {
+    padding: 2em;
+}
+
+.section-colums .section-header {
+    text-align: center;
+}
+
+.section-colums .section-content {
+    display: flex;
+    gap: 2em;
+}
+
+.section-colums .section-content article {
+    flex: 1 1 30%;
+    text-align: center;
+}
+.section-features{
+    background: white;
+}
+
+.section-features img {
+    width: 15%;
+    margin: 0 auto;
+}
+
+.section-features h4 {
+    color: #D01919;
+}
+
+.section-coaches h5 {
+    color: #D01919;
+}

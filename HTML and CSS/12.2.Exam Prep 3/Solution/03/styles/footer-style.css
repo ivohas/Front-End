@@ -1,0 +1,14 @@
+footer {
+    background-color: #1b9772;
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    color: #56dbb1;
+    padding: 4em 0;
+}
+
+footer div span {
+    color: whitesmoke;
+}

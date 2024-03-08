@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6em;
+    padding-top: 1em;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+
+header nav ul li,
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a {
+    padding: 1.2em 2em;
+    background-color: #ececec;
+    color: grey;
+    border: 1px solid #fff;
+}
+
+header nav ul li a.green-button {
+    background-color: #56dbb1;
+    color: black;
+}
+
+.header-title h2 {
+    font-size: 2em;
+    padding-left: 1em;
+    padding-top: 0.3em;
+}
+
+.header-title span {
+    border-left: gray 1px solid;
+    padding-left: 1.5em;
+    color: gray;
+    font-size: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}

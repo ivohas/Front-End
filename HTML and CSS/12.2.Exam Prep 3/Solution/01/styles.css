@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Agbalumo;
+    font: 12px/1.5;
+
+}
+
+.contaner {
+    background-color: #d5ebea;
+    margin: 0.5em;
+    border: 4px black solid;
+}
+
+.header,
+.lines {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lines {
+    width: 95%;
+    border-top: 4px black solid;
+    border-bottom: 4px black solid;
+}
+
+h2 {
+    font-size: 3em;
+    padding-top: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.main {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 4em 2em;
+}
+
+.image-container {
+    display: flex;
+    flex: 0 0 40%;
+    padding: 1em;
+    border: 4px black solid;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/3;
+    padding-bottom: 2em;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-content p {
+    padding: 1em 2em;
+    font-size: 1.7em;
+
+}
+
+p span {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact-header {
+    width: 100%;
+    background-color: #fff;
+}
+
+.fact-header h3 {
+    padding: 0 3em;
+    font-size: 2em;
+    background-color: black;
+    color: #fff;
+    width: 38%;
+}
+
+.fact-content {
+    padding: 1.5em;
+}
+
+.fact-content {
+    padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+}
+
+.fact-content div {
+    font-size: 1.2em;
+    line-height: 2;
+}
+
+div span.bold {
+    font-weight: bold;
+}

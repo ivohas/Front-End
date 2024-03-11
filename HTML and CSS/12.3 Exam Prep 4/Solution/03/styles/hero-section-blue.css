@@ -1,0 +1,25 @@
+.conteiner-blue{
+    background-color: #ade2df;
+    padding: 3em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-blue h1{
+    font-size: 3.5em;
+    word-spacing: 0.1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+.conteiner-blue .btn-container{
+    margin: 3em;
+}
+.conteiner-blue .btn-container a{
+    padding: 1em 1.5em;
+    background-color: black;
+    color: #fff;
+    border-radius: 0.4em;
+    text-decoration: none;
+}

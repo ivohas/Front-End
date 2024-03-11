@@ -1,0 +1,33 @@
+.conteiner-blue-two{
+    background-color: #ade2df;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20em;
+    gap: 5em;
+}
+
+.conteiner-blue-two .img-con{
+    flex: 1 1 33%;
+    border: 1px grey dotted;
+}
+
+.conteiner-blue-two .content h4{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.conteiner-blue-two .content h6{
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    font-weight: 800;
+    font-size: 1em;
+}
+.conteiner-blue-two .content div{
+   padding: 2em 0 0.1em 0;
+   border-bottom: 1px black solid; 
+   display: flex;
+   flex-direction: row;
+   width: 40%;
+}
+

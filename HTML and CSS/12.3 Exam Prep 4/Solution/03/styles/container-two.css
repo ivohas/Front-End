@@ -1,0 +1,27 @@
+.container-two {
+    padding: 6em 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-two .mini {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px grey solid;
+    border-right: 1px grey solid;
+    padding: 2em 1em;
+    align-items: center;
+}
+
+.container-two .mini h4 {
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+
+.container-two .mini p {
+    display: flex;
+    text-align:  center;
+    width: 90%;
+}

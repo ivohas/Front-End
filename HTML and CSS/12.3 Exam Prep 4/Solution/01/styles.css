@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-size: 12px/1.5;
+    background-color: #d9d9d9;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+    padding-top: 2em;
+
+}
+
+.mini-container {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 6/3;
+}
+
+span {
+    margin: 1em;
+    font-weight: bolder;
+    color: rgb(85, 85, 85);
+}
+
+h2{
+    padding-left: 1em;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+p{
+    padding: 0.5em 1.5em 1em 2em;
+}
+
+.writer{
+    margin: 1.5em;
+    border-top: 1px black solid;
+    padding-top: 1em;
+    display: flex;
+    flex: 1 1 20%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.writer img.a {
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+}
+
+.first div.name{
+    margin-top: 0.25em;
+    margin-left: 0.5em;
+}
+
+.second div.time{
+    color: gray;
+}

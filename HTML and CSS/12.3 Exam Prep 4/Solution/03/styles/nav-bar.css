@@ -1,0 +1,24 @@
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 3em 3em 3em;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 1em;
+}
+header nav ul li a.blue-btn{
+    background-color: #ade2df;
+    border-radius: 0.5em;
+    padding: 1em 1.5em;
+    font-weight: bolder;
+}

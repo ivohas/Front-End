@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.container-one{
+    background-color: #f8f0e9;
+    padding: 2em 18em;
+
+}
+.container-one div{
+    font-family: Karla;
+}
+
+.container-one h2{
+    margin-top: 1em;
+    font-size: 3em;
+    padding-bottom: 1em;
+    font-style: italic;
+}

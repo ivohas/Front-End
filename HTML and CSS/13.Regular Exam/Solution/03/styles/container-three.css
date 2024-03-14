@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.container-three {
+    background-color: #f8f0e9;
+    padding: 4em;
+}
+
+.container-three .a {
+    padding: 0 28em;
+}
+
+.container-three .a .image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.container-three .a .content h3 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container-three .a .content p{
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-bottom: 4em;
+    font-family: Karla;
+}
+
+.container-three .btns-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-three .btns-cont a{
+    padding: 0.3em 1em;
+    background-color: #fff;
+    border: 1px black solid;
+    border-radius: 0.2em;
+    text-decoration: none;
+    color: black;
+    font-weight: 00;
+    justify-self: center;
+    font-family: Karla;
+}
+
+.container-three .btns-cont div.mid{
+    display: flex;
+    margin-top: 3em;
+    align-self: center;
+}

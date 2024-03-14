@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+.container-two {
+    background-color: #e14747;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-two h5,
+.container-two p {
+    color: #fff;
+    align-self: center;
+    font-family: Karla;
+}
+
+.container-two h5{
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.container-two p{
+    width: 26ch;
+    text-align: center;
+}

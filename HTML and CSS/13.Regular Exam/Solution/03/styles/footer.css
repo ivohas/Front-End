@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+footer img{
+    height: 2em;
+}
+
+footer{
+    background-color: #352b2a;
+    padding: 3em;
+}
+
+footer p {
+    color: #fff;
+    width: 48ch;
+    padding-bottom: 1em;
+    padding-top: 1.5em;
+}
+
+footer div.dark{
+    color: #584a46;
+}
+
+footer div.dark, footer p{
+    font-family: Karla;
+}

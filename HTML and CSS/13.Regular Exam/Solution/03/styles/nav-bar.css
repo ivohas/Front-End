@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+header div.img-back {
+    height: 20em;
+    background-image: url('../images/poster.jpg');
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: relative -150px;
+    height: 100%;
+    width: auto;
+    aspect-ratio: 1920/1285;
+}
+
+nav img {
+    height: 3em;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+    font-family: Karla, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5em;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-title h1 {
+    font-size: 90px;
+    align-self: center;
+    color: white;
+    padding: 1em;
+}
+
+.container-title p {
+    align-self: center;
+    color: white;
+    text-align: center;
+    width: 56ch;
+    font-family: Karla;
+    font-size: 18px;
+}
